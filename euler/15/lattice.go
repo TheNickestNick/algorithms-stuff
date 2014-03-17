@@ -1,6 +1,10 @@
 package main
 import "fmt"
 
+// Note: this can also be solved "more easily" by just
+// 	calculating 40 choose 20. I kind of enjoyed writing
+//	this dynamic programming solution though :)
+
 var paths [21][21]int
 
 func countPaths(width int, height int) int {
